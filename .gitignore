@@ -1,0 +1,8 @@
+#ignore Trivy executable and large JSON Scans
+trivy.exe
+*.json
+
+
+#Ignore python cache
+__pycache__/
+*.pyc
