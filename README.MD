@@ -1,7 +1,7 @@
 # 🛡️ Automated Risk-Based Vulnerability Management (RBVM) Engine
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
-![DevSecOps](https://img.shields.io/badge/DevSecOps-Pipeline-success.svg)
+RBVM CLI
 ![ThreatIntel](https://img.shields.io/badge/Threat_Intel-CISA_KEV-lightgrey.svg)
 ![RiskScoring](https://img.shields.io/badge/Risk_Scoring-FIRST_EPSS-lightgrey.svg)
 
@@ -31,8 +31,7 @@ To validate the engine, a localized Python environment was populated with histor
 
 While the baseline scanner detected multiple high-severity flaws, the RBVM engine successfully filtered the noise to highlight the single most pressing threat: **CVE-2023-4863** (WebP Heap Buffer Overflow), calculating a **93.3% probability** of exploitation.
 
-> **[INSERT YOUR TERMINAL SCREENSHOT HERE]**
-> *(Screenshot demonstrating the engine filtering 9 CVEs down to 1 actionable threat dashboard)*
+
 
 ---
 
