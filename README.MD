@@ -31,7 +31,7 @@ To validate the engine, a localized Python environment was populated with histor
 
 While the baseline scanner detected multiple high-severity flaws, the RBVM engine successfully filtered the noise to highlight the single most pressing threat: **CVE-2023-4863** (WebP Heap Buffer Overflow), calculating a **93.3% probability** of exploitation.
 
-
+![Dashboard](Screenshot%202026-05-24%20014434.png.png)
 
 
 ---
