@@ -27,9 +27,14 @@ By cross-referencing scanner exhaust with live federal threat intelligence (CISA
 ---
 
 ## 💻 Proof of Concept: Modern Honeypot Evaluation
+
 To validate the engine, a localized Python environment was populated with historically vulnerable dependencies (`Pillow==9.0.0`, `urllib3==1.26.4`). 
 
 <img width="1919" height="213" alt="Image" src="https://github.com/user-attachments/assets/85a35bdd-066d-452a-9a49-2c2b6aa4690d" />
+
+Trivy downloaded the vulnerability database before scanning the controlled vulnerable dependency lab.
+
+![Trivy vulnerability database update](screenshots/trivy-db-update.png)
 
 While the baseline scanner detected multiple high-severity flaws, the RBVM engine successfully filtered the noise to highlight the single most pressing threat: **CVE-2023-4863** (WebP Heap Buffer Overflow), calculating a **93.3% probability** of exploitation.
 
