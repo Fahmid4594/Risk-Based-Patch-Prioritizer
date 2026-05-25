@@ -34,7 +34,7 @@ To validate the engine, a localized Python environment was populated with histor
 
 Trivy downloaded the vulnerability database before scanning the controlled vulnerable dependency lab.
 
-![Trivy vulnerability database update](screenshots/trivy-db-update.png)
+<img width="1701" height="179" alt="Image" src="https://github.com/user-attachments/assets/98fd2506-743f-4dc0-b42e-3af765958cda" />
 
 While the baseline scanner detected multiple high-severity flaws, the RBVM engine successfully filtered the noise to highlight the single most pressing threat: **CVE-2023-4863** (WebP Heap Buffer Overflow), calculating a **93.3% probability** of exploitation.
 
