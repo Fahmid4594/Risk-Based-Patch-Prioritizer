@@ -6,13 +6,13 @@ RBVM CLI
 ![RiskScoring](https://img.shields.io/badge/Risk_Scoring-FIRST_EPSS-lightgrey.svg)
 
 ## 📌 Executive Summary
-A highly automated Dev pipeline engine designed to ingest raw container and filesystem vulnerability scans, programmatically map complex JSON schemas, and aggressively filter out theoretical noise. 
+A Python-based RBVM CLI designed to ingest raw container and filesystem vulnerability scans, programmatically map complex JSON schemas, and aggressively filter out theoretical noise. 
 
 By cross-referencing scanner exhaust with live federal threat intelligence (CISA KEV) and predictive mathematical models (FIRST EPSS), this engine transforms massive vulnerability data into a prioritized, actionable patching dashboard. 
 
 ### **📊 Quantifiable Impact**
-* **Alert Fatigue Reduction:** Demonstrated an **88.8% reduction** in vulnerability noise during honeypot testing (reducing 9 critical/high CVEs to 1 genuinely exploitable threat).
-* **Mean Time to Remediate (MTTR) Optimization:** Eliminates manual triage by instantly isolating vulnerabilities that are actively being weaponized by threat actors in the wild.
+* **Alert Fatigue Reduction:** Demonstrated an **88.8% reduction** in vulnerability noise during vunerable lab testing (reducing 9 critical/high CVEs to 1 genuinely exploitable threat).
+* **Mean Time to Remediate (MTTR) Optimization:** significantly reduces manual triage by instantly isolating vulnerabilities that are actively being weaponized by threat actors in the wild.
 * **Data-Driven Prioritization:** Replaces static CVSS scores with dynamic, real-time exploit probability percentages (EPSS), ensuring engineering teams patch the most critical risks first.
 
 ---
