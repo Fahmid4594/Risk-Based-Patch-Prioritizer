@@ -11,7 +11,7 @@ A Python-based RBVM CLI designed to ingest raw container and filesystem vulnerab
 By cross-referencing scanner exhaust with live federal threat intelligence (CISA KEV) and predictive mathematical models (FIRST EPSS), this engine transforms massive vulnerability data into a prioritized, actionable patching dashboard. 
 
 ### **📊 Quantifiable Impact**
-* **Alert Fatigue Reduction:** Demonstrated an **88.8% reduction** in vulnerability noise during vunerable lab testing (reducing 9 critical/high CVEs to 1 genuinely exploitable threat).
+* **Alert Fatigue Reduction:** Demonstrated an **88.8% reduction** in vulnerability noise during vulnerable lab testing (reducing 9 critical/high CVEs to 1 genuinely exploitable threat).
 * **Mean Time to Remediate (MTTR) Optimization:** significantly reduces manual triage by instantly isolating vulnerabilities that are actively being weaponized by threat actors in the wild.
 * **Data-Driven Prioritization:** Replaces static CVSS scores with dynamic, real-time exploit probability percentages (EPSS), ensuring engineering teams patch the most critical risks first.
 
