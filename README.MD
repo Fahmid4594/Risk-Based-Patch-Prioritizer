@@ -1,7 +1,7 @@
 # 🛡️ Automated Risk-Based Vulnerability Management (RBVM) Engine
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
-RBVM CLI
+![RBVM](https://img.shields.io/badge/RBVM-CLI-lightgrey.svg)
 ![ThreatIntel](https://img.shields.io/badge/Threat_Intel-CISA_KEV-lightgrey.svg)
 ![RiskScoring](https://img.shields.io/badge/Risk_Scoring-FIRST_EPSS-lightgrey.svg)
 
