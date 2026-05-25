@@ -26,7 +26,7 @@ By cross-referencing scanner exhaust with live federal threat intelligence (CISA
 
 ---
 
-## 💻 Proof of Concept: Modern Honeypot Evaluation
+## 💻 Proof of Concept: Controlled Vulnerable Lab
 
 To validate the engine, a localized Python environment was populated with historically vulnerable dependencies (`Pillow==9.0.0`, `urllib3==1.26.4`). 
 
