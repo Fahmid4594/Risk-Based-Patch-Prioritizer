@@ -17,7 +17,7 @@ with open(args.input,'r') as file:
 cve_list = []
 
 if "Results" not in scan_data:
-    logging.info("No vulnerabilities found in the scanned data. System is secure.")
+    logging.info("No vulnerabilities found in the scanned data")
     sys.exit(0)
 
 for result in scan_data["Results"]:
